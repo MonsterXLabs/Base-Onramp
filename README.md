@@ -6,6 +6,26 @@
 </p>
 
 <h1 align="center">Base‑Onramp</h1>
+<!-- top of your README -->
+<p align="center">
+
+  <!-- Stars -->
+  <img alt="GitHub Repo stars"
+       src="https://img.shields.io/github/stars/MonsterXLabs/Base-Onramp?style=social">
+
+  <!-- Forks -->
+  <img alt="GitHub forks"
+       src="https://img.shields.io/github/forks/MonsterXLabs/Base-Onramp?style=social">
+
+  <!-- Open Pull Requests -->
+  <img alt="GitHub pull requests"
+       src="https://img.shields.io/github/issues-pr/MonsterXLabs/Base-Onramp?color=blue">
+
+  <!-- Open Issues -->
+  <img alt="GitHub issues"
+       src="https://img.shields.io/github/issues/MonsterXLabs/Base-Onramp?color=yellow">
+
+</p>
 
 ---
 
