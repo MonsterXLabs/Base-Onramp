@@ -1,9 +1,7 @@
 <!-- README.md -->
 
-<p align="center">
-  <!-- Replace the src with your own project logo if you have one -->
-  <img src="https://avatars.githubusercontent.com/u/105401272?s=200&v=4" alt="MonsterXLabs Logo" width="120">
-</p>
+![tw-banner](https://github.com/thirdweb-example/vite-starter/assets/57885104/cfe2164b-b50b-4d8e-aaaa-31331da2d647)
+
 
 <h1 align="center">Base‑Onramp</h1>
 <!-- top of your README -->
