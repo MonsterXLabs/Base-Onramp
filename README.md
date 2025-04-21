@@ -41,19 +41,20 @@ If you plan to **drop these files into an existing React codebase**, you can sim
 # clone the repo
 git clone https://github.com/MonsterXLabs/Base-Onramp.git
 cd Base-Onramp
-
+```
 # OR just copy the files you need into your own project
 
-2. Install peer deps (inside your project)
-
+# 2. Install peer deps (inside your project)
+```bash
 npm install @coinbase/onramp-sdk   # or: yarn add ...
 npm install ethers                # example Web3 library
+```
 
-
-3. Configure your environment
+# 3. Configure your environment
 Add your Coinbase OnRamp publishable key somewhere in your app (e.g., .env, Next.js public runtime config, etc.).
 
-4. Use the components
+# 4. Use the components
+```bash
 import BuyModal from "@/components/BuyModal";
 import TopupModal from "@/components/TopupModal";
 import { initOnrampClient } from "@/utilsOnramp/onrampApi";
@@ -62,9 +63,10 @@ const client = initOnrampClient(process.env.NEXT_PUBLIC_ONRAMP_API_KEY!);
 
 // Open modal when user clicks “Buy with card”
 <BuyModal client={client} onSuccess={() => /* resume checkout */} />
+```
 
-
-📁 Directory Structure
+# 📁 Directory Structure
+```bash
 Base-Onramp/
 │
 ├── utilsOnramp/
@@ -75,18 +77,18 @@ Base-Onramp/
 ├── TopupModal.tsx        # top‑up flow, balance checker
 ├── NFTMain.tsx           # example NFT checkout page
 └── README.md             # ← you are here
+```
 
-
-💡 Tips & Customisation
+# 💡 Tips & Customisation
 Currency‑agnostic: Because no currency param is passed, Coinbase chooses the correct fiat/crypto pair automatically based on the user’s profile.
 
 Balance checking: rampUtils.ts contains a polling helper (waitForBalanceIncrease) you can adapt for your own RPC provider or wallet hooks.
 
 Styling: The modal components use minimal inline styles. Feel free to wrap with your favourite UI library (ShadCN, Chakra, MUI, Tailwind, etc.).
 
-🤝 Contributing
+# 🤝 Contributing
 Pull requests and issues are welcome! If you add new features—e.g., ERC‑20 balance checks, better error surfaces—feel free to open a PR.
 
-👨‍💻 Developed By
+# 👨‍💻 Developed By
 Made with ❤️ by MonsterXLabs
 
