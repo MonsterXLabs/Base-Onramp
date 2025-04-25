@@ -1,0 +1,42 @@
+{
+  "minted": {
+    "event_main": "mint",
+    "event_sub": "minted"
+  },
+  "purchased": {
+    "event_main": "purchase",
+    "event_sub": "purchased"
+  },
+  "bid": {
+    "event_main": "bid",
+    "event_sub": "bid"
+  },
+  "bid_cancel": {
+    "event_main": "bid cancelled",
+    "event_sub": "bid cancelled"
+  },
+  "auction": {
+    "event_main": "auction",
+    "event_sub": "auction"
+  },
+  "auction_cancel": {
+    "event_main": "auction cancelled",
+    "event_sub": "auction cancelled"
+  },
+  "escrow": {
+    "event_main": "escrow",
+    "event_sub": "escrow"
+  },
+  "escrow_cancel": {
+    "event_main": "escrow cancelled",
+    "event_sub": "escrow cancelled"
+  },
+  "split": {
+    "event_main": "split",
+    "event_sub": "split"
+  },
+  "royalty": {
+    "event_main": "royalty",
+    "event_sub": "royalty"
+  }
+}

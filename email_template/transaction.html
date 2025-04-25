@@ -1,0 +1,75 @@
+```html
+<!-- filepath: /d:/4_work/7_rw_market/v2/VaultX_Frontend_Nextjs/email_template/transaction.html -->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Transaction Notification</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+      .header {
+        padding: 16px 0;
+        text-align: center;
+        background-color: #f5f5f5;
+      }
+      .content {
+        background-color: #ffffff;
+        padding: 24px;
+        border: 1px solid #dddddd;
+      }
+      .footer {
+        text-align: center;
+        margin-top: 24px;
+        color: #aaaaaa;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>{{rwa_event_main}}!!</h2>
+      </div>
+      <div class="content">
+        <p>Hello <strong>{{ name }}</strong>,</p>
+        <p>
+          RWA <strong>{{ rwa_name }}</strong> has been
+          <strong>{{ rwa_event_sub }}</strong>.
+        </p>
+        <p>
+          <a
+            href="{{ rwa_url }}"
+            style="
+              display: inline-block;
+              padding: 10px 20px;
+              color: #ffffff;
+              background-color: #007bff;
+              text-decoration: none;
+              border-radius: 4px;
+            "
+          >
+            View RWA
+          </a>
+        </p>
+        <p>
+          Thank you for using our service. Please log in to your account for
+          more information.
+        </p>
+      </div>
+      <div class="footer">
+        <p>© 2025 Vault-X. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
+```

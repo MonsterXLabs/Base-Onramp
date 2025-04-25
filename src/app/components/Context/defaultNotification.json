@@ -1,0 +1,69 @@
+{
+  "key": "default",
+  "notification": {
+    "backgroundColor": "#eeeeee,#2c2c2c",
+    "label": {
+      "textColor": "#80000000,#80ffffff",
+      "textSize": 12,
+      "fontWeight": "bold"
+    },
+    "pressedColor": "#dbd1ff,#491389",
+    "radius": 8,
+    "sentAt": {
+      "textColor": "#61000000,#61ffffff",
+      "textSize": 11,
+      "fontWeight": "normal"
+    },
+    "unreadIndicatorColor": "#259c72,#259c72",
+    "category": {
+      "textColor": "#80000000,#80ffffff",
+      "textSize": 12,
+      "fontWeight": "bold"
+    }
+  },
+  "list": {
+    "backgroundColor": "#ffffff,#161616",
+    "category": {
+      "backgroundColor": "#eeeeee,#2e2e2e",
+      "fontWeight": "normal",
+      "radius": 15,
+      "selectedBackgroundColor": "#742ddd,#c2a9fa",
+      "selectedTextColor": "#e0ffffff,#e0000000",
+      "textColor": "#e0000000,#b8ffffff",
+      "textSize": 12
+    },
+    "timeline": {
+      "backgroundColor": "#51000000,#51000000",
+      "textColor": "#e1ffffff,#80ffffff",
+      "textSize": 12,
+      "fontWeight": "bold"
+    },
+    "tooltip": {
+      "backgroundColor": "#742ddd,#c2a9fa",
+      "textColor": "#e1ffffff,#e1000000",
+      "textSize": 14,
+      "radius": 19,
+      "fontWeight": "bold"
+    }
+  },
+  "header": {
+    "backgroundColor": "#ffffff,#2c2c2c",
+    "buttonIconTintColor": "#742ddd,#c2a9fa",
+    "fontWeight": "bold",
+    "lineColor": "#1e000000,#2c2c2c",
+    "textColor": "#e1000000,#e1ffffff",
+    "textSize": 18
+  },
+  "components": {
+    "text": {
+      "textColor": "#e0000000,#e0ffffff"
+    },
+    "textButton": {
+      "backgroundColor": "#e0e0e0,#1fffffff",
+      "radius": 6,
+      "textColor": "#742ddd,#c2a9fA"
+    }
+  },
+  "created_at": 1737252287548,
+  "updated_at": 1737252287548
+}

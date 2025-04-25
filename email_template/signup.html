@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>MonsterX Signup</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+      .header {
+        padding: 16px 0;
+        text-align: center;
+        background-color: #f5f5f5;
+      }
+      .content {
+        background-color: #ffffff;
+        padding: 24px;
+        border: 1px solid #dddddd;
+      }
+      .footer {
+        text-align: center;
+        margin-top: 24px;
+        color: #aaaaaa;
+        font-size: 12px;
+      }
+      .button {
+        display: inline-block;
+        padding: 12px 20px;
+        color: #ffffff;
+        background-color: #007bff;
+        text-decoration: none;
+        border-radius: 4px;
+      }
+      .highlight {
+        color: #007bff;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Welcome to MonsterX!</h2>
+      </div>
+
+      <div class="content">
+        <p>Hello <strong>{{ userName }}</strong>,</p>
+        <p>
+          Thank you for signing up for <span class="highlight">MonsterX</span>.
+          We’re excited to have you on board!
+        </p>
+        <p>
+          If you have any questions or need assistance, feel free to reach out
+          to our support team.
+        </p>
+      </div>
+
+      <div class="footer">
+        <p>© 2025 MonsterX. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
